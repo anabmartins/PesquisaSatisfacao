@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    font-family: Rubik, cursive;
+}
+
+header {
+    background-color: teal;
+    padding: 20px;
+}
+
+header h2 {
+    color: bisque;
+}
+
+footer{
+    background-color: teal;
+    padding: 40px;
+}
+
+
+footer li{
+    color: cornsilk;
+}
+
+.natnatura img{
+    width: 16px;
+    height: 10px;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    border-radius: 15px;
+    border: 3px solid teal;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.div-title {
+    padding: 5px;
+}
+.div-produtos img {
+    width: 6cm;
+    height: 6cm;
+    margin-bottom: 0;
+}
+.div-question{
+    margin-bottom: 3rem;
+}
+
+#descricao {
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+
+.perguntas {
+    margin-bottom: 3rem;
+}
