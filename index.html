@@ -26,10 +26,17 @@
                 <p id="descricao">Ekos Frescor Maracujá</p>
             </label>
             <div id="p1" class="perguntas">
-                <p>1- Você considera o produto útil para o uso geral?</p>
-                <input type="radio" name="p1">Muito 
-                <input type="radio" name="p1">Médio 
-                <input type="radio" name="p1">Pouco 
+                <p>1- Em uma escala de 0 a 10, quanto voce recomendaria o hidratante Ekos Frescor Maracujá para um amigo ou familiar?</p>
+                <input type="radio" name="p1" id="p1" value="1">1 
+                <input type="radio" name="p1" id="p1" value="2">2 
+                <input type="radio" name="p1" id="p1" value="3">3 
+                <input type="radio" name="p1" id="p1" value="4">4 
+                <input type="radio" name="p1" id="p1" value="5">5 
+                <input type="radio" name="p1" id="p1" value="6">6 
+                <input type="radio" name="p1" id="p1" value="7">7 
+                <input type="radio" name="p1" id="p1" value="8">8 
+                <input type="radio" name="p1" id="p1" value="9">9 
+                <input type="radio" name="p1" id="p1" value="10">10 
             </div>
             <div id="p2" class="perguntas">
                 <p>2- Você considera o produto útil para o uso geral?</p>
@@ -74,10 +81,10 @@
                 <input type="radio" name="p8">Pouco 
             </div>
         
-            <button type="button" id="botao" onclick="pontuar()">Enviar</button>
+            <button type="button" value="submit" id="pontuar" onclick="pontuar()">Enviar</button>
         </div>
         <p>Pontos</p>
-        <input type="text" id="resultado">
+        <input type="number" class="resultado" name="resultado" id="resultado" readonly>
     </div>
     <footer>
         <ul>
@@ -85,6 +92,6 @@
             <li>© 2022 Natura. Todos os direitos reservados.</li>
         </ul>
     </footer>
-    <script src="pontos.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
