@@ -12,7 +12,7 @@ let botao = document.querySelector('#pontuar')
 botao.addEventListener('click', pontuar)
 
 function pontuar() {
-    if ((#op10).checked) 
+    if (("#op10").checked) 
     {
         pontos++
     }
