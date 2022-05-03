@@ -1,5 +1,5 @@
 var pontos = 0 
-let p1 = document.getElementById('p1')
+let p1 = document.getElementByName('p1')
 let p2 = document.getElementById('p2')
 let p3 = document.getElementById('p3')
 let p4 = document.getElementById('p4')
@@ -12,7 +12,7 @@ let botao = document.querySelector('#pontuar')
 botao.addEventListener('click', pontuar)
 
 function pontuar() {
-    if (('p1').checked) 
+    if ((#op10).checked) 
     {
         pontos++
     }
